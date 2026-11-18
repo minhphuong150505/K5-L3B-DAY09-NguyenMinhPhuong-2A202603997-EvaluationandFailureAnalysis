@@ -1,0 +1,2 @@
+# Bonus only (not needed by Core/CI): python -m pip install -r bonus/requirements-bonus.txt
+inspect-ai==0.3.291

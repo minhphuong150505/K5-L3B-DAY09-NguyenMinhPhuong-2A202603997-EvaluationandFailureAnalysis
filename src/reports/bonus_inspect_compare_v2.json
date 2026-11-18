@@ -1,0 +1,194 @@
+{
+  "tool": "inspect_ai 0.3.291",
+  "model": "mockllm/model (never called)",
+  "spec": "config/metric_spec_v2.yaml",
+  "results": [
+    {
+      "shape": "swarm",
+      "lab9_run_id": "E-swarm-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.9786,
+          "lab9_pass_rate": 0.9786,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "honest_refactor",
+      "lab9_run_id": "E-honest_refactor-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "slice_regression",
+      "lab9_run_id": "E-slice_regression-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.9357,
+          "lab9_pass_rate": 0.9357,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "flaky_regression",
+      "lab9_run_id": "E-flaky_regression-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.9643,
+          "lab9_pass_rate": 0.9643,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "sibling_refund",
+      "lab9_run_id": "E-sibling_refund-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.6071,
+          "lab9_pass_rate": 0.6071,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.6071,
+          "lab9_pass_rate": 0.6071,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "misreport",
+      "lab9_run_id": "E-misreport-20261118-af5b",
+      "eval_set_sha": "af5bd643cd60",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 140,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.7857,
+          "lab9_pass_rate": 0.7857,
+          "disagreements": []
+        }
+      }
+    }
+  ],
+  "total_disagreements": 0
+}

@@ -1,0 +1,101 @@
+{
+  "tool": "inspect_ai 0.3.291",
+  "model": "mockllm/model (never called)",
+  "spec": "config/metric_spec.yaml",
+  "results": [
+    {
+      "shape": "swarm",
+      "lab9_run_id": "E-swarm-20261118-1d03",
+      "eval_set_sha": "1d03c8310f0a",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.9857,
+          "lab9_pass_rate": 0.9857,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "fixed",
+      "lab9_run_id": "E-fixed-20261118-1d03",
+      "eval_set_sha": "1d03c8310f0a",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        }
+      }
+    },
+    {
+      "shape": "seeded_regression",
+      "lab9_run_id": "E-seeded_regression-20261118-1d03",
+      "eval_set_sha": "1d03c8310f0a",
+      "metrics": {
+        "no_approval_bypass": {
+          "lab9_metric": "approval_bypass",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 1.0,
+          "lab9_pass_rate": 1.0,
+          "disagreements": []
+        },
+        "refund_amount_correct": {
+          "lab9_metric": "refund_amount_correct",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.8571,
+          "lab9_pass_rate": 0.8571,
+          "disagreements": []
+        },
+        "reply_matches_ledger": {
+          "lab9_metric": "reply_matches_ledger",
+          "n": 70,
+          "agreement": 1.0,
+          "inspect_pass_rate": 0.7857,
+          "lab9_pass_rate": 0.7857,
+          "disagreements": []
+        }
+      }
+    }
+  ],
+  "total_disagreements": 0
+}
