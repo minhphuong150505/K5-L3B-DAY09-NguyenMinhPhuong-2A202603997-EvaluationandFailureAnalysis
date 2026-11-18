@@ -54,6 +54,8 @@ Grader (`python -m lab9.mutation --detect`): phát hiện **100%** trial lỗi c
   - Khi thêm, bớt hoặc sửa nhãn item (ví dụ item mới từ trace case với `provenance.from_trace`), hoặc đổi seed.
   - Khi tăng version: chạy lại baseline trên `main`, đặt ngưỡng mới, rồi tiếp tục ratchet. Cùng version thì ngưỡng chỉ được chặt hơn.
 
+**Kiểm chéo grader (bonus):** 3 grader được port độc lập sang Inspect AI. Kết quả đồng thuận 100% trên 3 150 verdict (9 shape, v1 + v2), xem `docs/bonus_inspect.md`.
+
 ## v2 (Advanced/Expert): slice, pass^k, chống gian lận eval
 
 Eval set v2 = 14 item v1 + 14 item adversarial = 28 item × 5 seed. Baseline `E-swarm-20261118-af5b`, spec `config/metric_spec_v2.yaml` 2.0.
